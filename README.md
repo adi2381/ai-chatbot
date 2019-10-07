@@ -4,12 +4,6 @@ This is an attempt at building a ChatBot using [Seq2Seq](https://www.geeksforgee
 Diagram:
 ![Encoder & Decoder Network](https://miro.medium.com/proxy/1*sO-SP58T4brE9EHazHSeGA.png)
 
-## Dependencies
-1. Install [Anaconda](https://www.anaconda.com/distribution/)
-2. Download the [Cornell Movie-Dialogs Corpus](http://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html) Dataset
-3. Install Python 3.5
-4. Install Tensorflow 1.0.0
-
 ## Getting Started (Windows)
 ### Install Anaconda
 ```https://www.anaconda.com/distribution/```
@@ -28,8 +22,6 @@ To deactivate the virtual environment, simply use **deactivate**
 
 ### Install Tensorflow 1.0.0
 ```pip install tensorflow==1.0.0``` 
-
-
 
 ## Status
 Need to train model
