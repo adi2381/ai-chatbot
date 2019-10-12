@@ -22,13 +22,15 @@ Diagram:
 ```https://www.anaconda.com/distribution/```
 
 #### Installing Python 3.5 and Creating Virtual Environment
-Please note that, when you're running the below line of code, you do so in the anaconda shell to avoid any issues. "chatbot" is the name of the virtual environment.
+Please note that, when you're running the below line of code, you do so in the anaconda terminal to avoid any issues. "chatbot" is the name of the virtual environment.
 
 ```conda create -n chatbot python=3.5 anaconda ```
 
 Press 'y' and hit enter when it promts you for y/n
 
 #### Activate Virtual Environment
+To properly activate the virtual env after creating it, go to anaconda navigator > environments > click on 'chatbot' then right click on it, click on run 'chatbot terminal' and run the below code
+
 ```activate chatbot```
 
 To deactivate the virtual environment, simply use **deactivate**
