@@ -3,6 +3,9 @@ This is an attempt at building a ChatBot using [Seq2Seq](https://www.geeksforgee
 
 The python files contains not only the code but also comments wherever necessary to explain the code and the working. For any further questions, you can send a request.
 
+General Architecture of Seq2Seq Model:
+![Encoder & Decoder Network](https://miro.medium.com/proxy/1*sO-SP58T4brE9EHazHSeGA.png)
+
 ### Train your model using Google Colab
 #### Why use google colab?
 1. It allows you to execute a runtime instance using google's GPU (which is a powerful Nvidia Tesla K80) coupled with 12GB Ram
@@ -13,9 +16,6 @@ The python files contains not only the code but also comments wherever necessary
 Check the **Colab_GPU_train.ipynb** which you can download and open directly on [Google Colab](https://colab.research.google.com/)
 
 It explains all the steps as well as provides the code which you can directly execute unless you want to change the versions to setup your environment for training using GPU
-
-Diagram:
-![Encoder & Decoder Network](https://miro.medium.com/proxy/1*sO-SP58T4brE9EHazHSeGA.png)
 
 ## Getting Started (Windows)
 #### Install Anaconda
