@@ -1,8 +1,6 @@
 # AI seq2seq ChatBot
 This is an attempt at building a ChatBot using [Seq2Seq](https://www.geeksforgeeks.org/seq2seq-model-in-machine-learning/) model. This model is based on 2 [LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory) Layers. Seq2Seq mainly consists of 2 components i.e Encoder and Decoder, hence sometimes it is also called Encoder-Decoder network.
 
-The python files contains not only the code but also comments wherever necessary to explain the code and the working. For any further questions, you can send a request.
-
 General Architecture of Seq2Seq Model:
 ![Encoder & Decoder Network](https://miro.medium.com/proxy/1*sO-SP58T4brE9EHazHSeGA.png)
 
@@ -46,4 +44,6 @@ I was only able to train the model for 15 epochs, which is very less for trainin
 
 ![image info](images/training_result.png)
 ![image info](images/training_result_2.png)
+
+**Note:** The python files contains not only the code but also comments wherever necessary to explain the code and the working. For any further questions, you can send a request.
 
