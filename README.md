@@ -36,7 +36,7 @@ To deactivate the virtual environment, simply use **deactivate**
 #### Install Tensorflow 1.0.0
 ```pip install tensorflow==1.0.0``` 
 
-#### Dataset - Cornell Movie-Dialogs Corpus
+#### Download Dataset - Cornell Movie-Dialogs Corpus
 ```http://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html```
 
 ## Result
