@@ -9,26 +9,27 @@ Diagram:
 ![Encoder & Decoder Network](https://miro.medium.com/proxy/1*sO-SP58T4brE9EHazHSeGA.png)
 
 ## Getting Started (Windows)
-### Install Anaconda
+#### Install Anaconda
 ```https://www.anaconda.com/distribution/```
 
-### Installing Python 3.5 and Creating Virtual Environment
+#### Installing Python 3.5 and Creating Virtual Environment
 Please note that, when you're running the below line of code, you do so in the anaconda shell to avoid any issues. "chatbot" is the name of the virtual environment.
 
 ```conda create -n chatbot python=3.5 anaconda ```
 
-Press 'y' and enter when it promts you for y/n
+Press 'y' and hit enter when it promts you for y/n
 
-### Activate Virtual Environment
+#### Activate Virtual Environment
 ```activate chatbot```
 
 To deactivate the virtual environment, simply use **deactivate**
 
-### Install Tensorflow 1.0.0
+#### Install Tensorflow 1.0.0
 ```pip install tensorflow==1.0.0``` 
 
-### Dataset - Cornell Movie-Dialogs Corpus
+#### Dataset - Cornell Movie-Dialogs Corpus
 ```http://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html```
 
 ## Result
 I was only able to train the model for 15 epochs, which is very less for training a chatbot with a huge and complex dataset like cornell's movie dialouge corpus.
+![training_result](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
