@@ -45,5 +45,5 @@ I was only able to train the model for 15 epochs, which is very less for trainin
 ![image info](images/training_result.png)
 ![image info](images/training_result_2.png)
 
-**Note:** The python files contains not only the code but also comments wherever necessary to explain the code and the working. For any further questions, you can send a request.
+_**Note:**_ The python files contains not only the code but also comments wherever necessary to explain the code and the working. For any further questions, you can send a request.
 
