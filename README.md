@@ -3,7 +3,16 @@ This is an attempt at building a ChatBot using [Seq2Seq](https://www.geeksforgee
 
 The python files contains not only the code but also comments wherever necessary to explain the code and the working. For any further questions, you can send a request.
 
-Scroll to bottom to see how you can train your model using Google Colab's GPU (which is a powerful Nvidia Tesla K80 GPU) coupled with 12GB Ram. Also, Google provides this service for free with a limit imposed on your runtime session, you can have a session for maximum of 12 hours after which it terminates.
+### Train your model using Google Colab
+#### Why use google colab?
+1. It allows you to execute a runtime instance using google's GPU (which is a powerful Nvidia Tesla K80) coupled with 12GB Ram
+2. It is free of cost
+3. Only downside is that it allots you a time period of 12 hours maximum after which the runtime terminates without any warnings and any files in that runtime are deleted as well
+
+#### For detailed information on Google Colab
+Check the **Colab_GPU_train.ipynb** which you can download and open directly on [Google Colab](https://colab.research.google.com/)
+
+It explains all the steps as well as provides the code which you can directly execute unless you want to change the versions to setup your environment for training using GPU
 
 Diagram:
 ![Encoder & Decoder Network](https://miro.medium.com/proxy/1*sO-SP58T4brE9EHazHSeGA.png)
@@ -31,5 +40,8 @@ To deactivate the virtual environment, simply use **deactivate**
 ```http://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html```
 
 ## Result
-I was only able to train the model for 15 epochs, which is very less for training a chatbot with a huge and complex dataset like cornell's movie dialouge corpus.
-![training_result](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+I was only able to train the model for 15 epochs, which is very less for training a chatbot with a huge and complex dataset like cornell's movie dialouge corpus. As a result, below you can see that the chatbot's reply to my messages are hugely inaccurate. They can be however improved by further fine tuning the hyperparamters and certainly by training the model for more epochs.
+
+![image info](images/training_result.png)
+![image info](images/training_result_2.png)
+
