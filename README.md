@@ -1,13 +1,13 @@
 # AI seq2seq ChatBot
-This is an attempt at building a ChatBot using [Seq2Seq](https://www.geeksforgeeks.org/seq2seq-model-in-machine-learning/) model. This model is based on 2 [LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory) Layers. Seq2Seq mainly consists of 2 components i.e Encoder and Decoder, hence sometimes it is also called Encoder-Decoder network.
+A ChatBot built using [Seq2Seq](https://www.geeksforgeeks.org/seq2seq-model-in-machine-learning/) model. This model is based on 2 [LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory) Layers. Seq2Seq consists of 2 components i.e Encoder and Decoder, hence often referred to as the Encoder-Decoder network.
 
 General Architecture of Seq2Seq Model:
 ![Encoder & Decoder Network](https://miro.medium.com/proxy/1*sO-SP58T4brE9EHazHSeGA.png)
 
 ### Train your model using Google Colab
 #### Why use google colab?
-1. It allows you to execute a runtime instance using google's GPU (which is a powerful Nvidia Tesla K80) coupled with 12GB Ram
-2. It is free of cost
+1. Makes use of google's GPU (which is a powerful Nvidia Tesla K80) coupled with 12GB Ram
+2. It's free
 3. Only downside is that it allots you a time period of 12 hours maximum after which the runtime terminates without any warnings and any files in that runtime are deleted as well
 
 #### For detailed information on Google Colab
