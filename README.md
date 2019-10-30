@@ -4,6 +4,16 @@ This is an attempt at building a ChatBot using [Seq2Seq](https://www.geeksforgee
 General Architecture of Seq2Seq Model:
 ![Encoder & Decoder Network](https://miro.medium.com/proxy/1*sO-SP58T4brE9EHazHSeGA.png)
 
+# Shoutout
+This section is dedicated to those without whom this repo wouldn't have been possible, there are tons of amazing articles, tutorials and what not to guide or teach you on how to build a chatbot. I specifically followed these:
+
+* Ultimate Guide to Leveraging NLP & Machine Learning for your Chatbot - Stefan Kojouharov
+[Link for Article](https://chatbotslife.com/ultimate-guide-to-leveraging-nlp-machine-learning-for-you-chatbot-531ff2dd870c)
+* seq2seq model in Machine Learning - Mani Wadhwa(GeeksforGeeks)
+[Link for Article](https://www.geeksforgeeks.org/seq2seq-model-in-machine-learning/)
+* Python Chat Bot Tutorial - Chatbot with Deep Learning - Tech With Tim 
+[Link for Video](https://www.youtube.com/watch?v=wypVcNIH6D4)
+
 ### Train your model using Google Colab
 #### Why use google colab?
 1. It allows you to execute a runtime instance using google's GPU (which is a powerful Nvidia Tesla K80) coupled with 12GB Ram
