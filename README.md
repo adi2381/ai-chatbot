@@ -1,4 +1,5 @@
 # AI seq2seq ChatBot
+<img src="https://github.com/adi2381/ai-chatbot/blob/master/cover.png" height="400" width="612">
 This is an attempt at building a ChatBot using [Seq2Seq](https://www.geeksforgeeks.org/seq2seq-model-in-machine-learning/) model. This model is based on 2 [LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory) Layers. Seq2Seq mainly consists of 2 components i.e Encoder and Decoder, hence sometimes it is also called Encoder-Decoder network.
 
 General Architecture of Seq2Seq Model:
